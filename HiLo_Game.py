@@ -78,7 +78,9 @@ class Card:
 
 def main():
     #I call the classes and their methods. I request the player's name
-    name = input("Please enter your name: ")
+    print('+ '*20 + '  H I L O   G A M E  ' + '+ '*20)
+
+    name = input("\nPlease enter your name: ")
     tarjeta = Card(name)
     tarjeta.Play()
 
